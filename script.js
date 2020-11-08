@@ -116,11 +116,11 @@ var style11 = {
 			  
 
 
-/*			  
+			  
 	var nod_ovalle = L.geoJSON(nod_ovalle, {
     
 	onEachFeature: function (feature, layer) {
-    layer.bindPopup('</h2><p>EQUIPO 1</p>'+'</h2><p>JOSE GAFARDO LISSETTE</p><p>'+feature.properties.Name+'</p>');
+    layer.bindPopup(feature.properties.Name+'</p>');
     },
 	
 	
@@ -153,7 +153,7 @@ var style11 = {
 			  
 			  
 			  
-	*/		  
+			  
 			  
 			  
 			  
